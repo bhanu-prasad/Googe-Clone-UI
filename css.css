@@ -1,0 +1,249 @@
+*{
+    outline: none ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.topbar{
+    
+    display: flex;
+    margin: 0%;
+    padding: 6px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.barcont{
+    
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+}
+.links{
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+    font: 13px/27px arial,sans-serif;
+    height: 24px;
+}
+.links a{
+    text-decoration: none;
+    color: #000;
+}
+.gmail{
+    height: 24px;
+    min-height: 24px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+.imgs{
+    height: 24px;
+    padding-left: 15px;
+    min-height: 24px;
+}
+.tbtns{
+    display: flex;
+    height: 48px;
+    width: 160px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.dotsb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+.dots{
+    padding-top: 4px;
+    height: 16px;
+    width: 16px;
+}
+.buttonv{
+    outline: none ;
+}
+.button{
+    outline: none ;
+    min-width: 96px;
+    margin: 0px 8px;
+    background-color: #1a73e8;
+    padding: 9px 23px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.searchbtn{
+    
+    margin: 0%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction:column ;
+}
+
+.srch{
+    display: flex;
+    padding-top:6px ;
+    margin: 0px 167px;
+    justify-content: center;
+    flex-direction: column;
+    width: 584px;
+    
+}
+
+.srchbar{
+    display: flex;
+    padding: 5px 8px 0px 14px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    
+}
+.srchbar:hover{
+    box-shadow: 0 0 4px rgba(0, 0 ,0, 0.3);
+    border: 1px solid transparent;
+}
+.sr{
+    
+    display: flex;
+    width: 100%;
+    
+}
+.sinput{
+    padding: 0%;
+    width: 487px;
+    height: 34px;
+    border: none;
+    align-items: center;
+    font-size: 16px;
+    outline: none;
+    
+}
+.fa{
+    padding-bottom: 4px;
+    margin: 9px 0px;
+
+}
+.sb{
+    padding-right: 13px;
+    height: 100%;
+}
+.mic{
+    height: 100%;
+    padding: 0px 8px;
+}
+
+.btns{
+    display: flex;
+    padding-top: 18px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.subbtns{
+    display: flex;
+    flex: 100%;
+    justify-content: center;
+}
+.dwnbtn{
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.langs{
+    display:flex ;
+    flex-grow:1 ;
+    flex-shrink:0 ;
+    justify-content: center;
+    
+}
+
+.link{
+    display: flex;
+    
+}
+.langlinks{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.padd{
+    padding: 0px 3px;
+}
+
+
+.country{
+    display: block;
+    flex: 100%;
+    padding: 15px 30px;
+    border-bottom: 1px solid #b2b4b8;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    background-color: #e6e6e6;
+    max-height: 46px;
+    bottom: 47px;
+    position: fixed;
+    width: 100%;
+}
+
+.help{
+    display: flex;
+    flex:100%;
+    align-items: centre;
+    justify-content: space-around;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    padding: 0 20px;
+    height: 46px;
+    background-color: #e6e6e6;
+    margin-bottom: 0;
+    max-height: 46px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.help a{
+    padding: 15px;
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+.help a:hover{
+    text-decoration: underline;
+}
+.helpcontent{
+    display: flex;
+    
+}
